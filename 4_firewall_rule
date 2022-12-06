@@ -1,4 +1,10 @@
 #Run in console not in a VM
 gcloud compute firewall-rules create nodeports --allow tcp:30000-40000
 
-
+#NAME: nodeports
+#NETWORK: default
+#DIRECTION: INGRESS
+#PRIORITY: 1000
+#ALLOW: tcp:30000-40000
+#DENY:
+#DISABLED: False
